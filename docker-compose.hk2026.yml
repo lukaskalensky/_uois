@@ -13,6 +13,8 @@ services:
     volumes:
       - .:/app
     working_dir: /app
+    tty: true           # <-- Přidej toto (emuluje terminál)
+    stdin_open: true
   frontend:
     image: hrbolek/frontend:0.11.0
     environment:
