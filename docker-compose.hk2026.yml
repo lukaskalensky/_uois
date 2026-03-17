@@ -7,6 +7,12 @@ x-services-volume:
   target: /app/systemdata.json
 
 services:
+
+  moje-node-app:           # <-- Tímto jménem se Node.js přidá do skupiny
+    image: node:24-alpine  # Použiješ verzi, kterou už máš staženou
+    volumes:
+      - .:/app
+    working_dir: /app
   frontend:
     image: hrbolek/frontend:0.11.0
     environment:
