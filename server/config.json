@@ -1,21 +1,87 @@
 {
+    "ug": { 
+        "file": "ug3.html",
+        "title": "Uživatelé",
+        "authors": "Hrbolek",
+        "markdownfile": "ug3.md"
+    },
+    "program": { 
+        "file": "program.html",
+        "title": "Program",
+        "authors": "TomasR04 & ",
+        "markdownfile": "program.md"
+    },
+    "subject": { 
+        "file": "subject.html",
+        "title": "Předmět",
+        "authors": "velkayolanda & ",
+        "markdownfile": "subject.md"
+    },
+    "semestr": { 
+        "file": "semestr.html",
+        "title": "Semestr",
+        "authors": "Maya0552 & ",
+        "markdownfile": "semestr.md"
+    },
+    "studyplan": { 
+        "file": "studyplan.html",
+        "title": "Studijní plán",
+        "authors": "lukaskalensky & ",
+        "markdownfile": "studyplan.md"
+    },
+    "student": { 
+        "file": "student.html",
+        "title": "Student",
+        "authors": "pajapaja & ",
+        "markdownfile": "student.md"
+    },
+    "exam": { 
+        "file": "exam.html",
+        "title": "Podmínky klasifikace",
+        "authors": "NikiHal013 & ",
+        "markdownfile": "exam.md"
+    },
+    "evaluation": { 
+        "file": "evaluation.html",
+        "title": "Klasifikace",
+        "authors": "speron & ",
+        "markdownfile": "evaluation.md"
+    },
+    "event": { 
+        "file": "event.html",
+        "title": "Událost",
+        "authors": " & ",
+        "markdownfile": "event.md"
+    },
+    "kalendar": { 
+        "file": "kalendar.html",
+        "title": "Kalendář",
+        "authors": " & ",
+        "markdownfile": "kalendar.md"
+    },
+    "dochazka": { 
+        "file": "dochazka.html",
+        "title": "Docházka",
+        "authors": "Svejkys & ",
+        "markdownfile": "dochazka.md"
+    },    
+    "finance": { 
+        "file": "finance.html",
+        "title": "Finance",
+        "authors": "vojta19 & ",
+        "markdownfile": "finance.md"
+    },
+    "projekt": { 
+        "file": "projekt.html",
+        "title": "Projekt",
+        "authors": "lukylinek    & ",
+        "markdownfile": "projekt.md"
+    },
     "generic_": { 
         "file": "generic.html",
         "title": "UI z metadat GraphQL API",
         "authors": "Hrbolek",
         "markdownfile": "generic_.md"
-    },
-    "babel": { 
-        "file": "babel.html",
-        "title": "Babel aplikace",
-        "authors": "Hrbolek",
-        "markdownfile": "babel.md"
-    },
-    "ui": { 
-        "file": "ui.html",
-        "title": "UI z metadat",
-        "authors": "Hrbolek",
-        "markdownfile": "ui.md"
     },
     "graphiql": { 
         "file": "graphiql.html",
@@ -35,12 +101,18 @@
         "authors": "Hrbolek",
         "markdownfile": "doc.md"
     },
-    "ug": { 
-        "file": "ug.html",
-        "title": "Uživatelé",
+    "babel": { 
+        "file": "babel.html",
+        "title": "Babel aplikace",
         "authors": "Hrbolek",
-        "markdownfile": "ug.md"
+        "markdownfile": "babel.md"
     },
+    "ui": { 
+        "file": "ui.html",
+        "title": "UI z metadat",
+        "authors": "Hrbolek",
+        "markdownfile": "ui.md"
+    },    
     "auto": { 
         "file": "auto.html",
         "title": "Automat",
