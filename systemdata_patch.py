@@ -82,6 +82,7 @@ def patch_students(data, students):
         rbacobject_id = program.get("rbacobject_id", None)
         item["rbacobject_id"] = rbacobject_id
         item["semester_number"] = item.get("semester_number", 1)
+        item["startdate"] = item.get("startdate", "2024-09-01T00:00:00")
     return students
 
 
@@ -233,6 +234,7 @@ ZdenkaRBAC = {
     "_chunk": 10,
     "name": "rbacobject",
     "description": "rbacobject",
+    "mastergroup_id": "d75d64a4-bf5f-43c5-9c14-8fda7aff6c09",
     "grouptype_id": "3ffbc624-fe29-4486-9a56-3bc6a4e5b576"
 }
 
